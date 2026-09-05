@@ -1,6 +1,6 @@
 # SPX500 1m OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-5_837_796_rows-blue)](https://getdata.finance/datasets/spx500) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/spx500)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-5_841_678_rows-blue)](https://getdata.finance/datasets/spx500) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/spx500)
 
 ### -> [**Download the full SPX500 dataset on getdata.finance**](https://getdata.finance/datasets/spx500)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1m OHLCV** for **S&P 500** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/spx500) · **5,837,796** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/spx500) · **5,841,678** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `SPX500_1m.csv` (55,440 rows, `2026-07-07` -> `2026-09-02`, 3.71 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/spx500)** — **5,837,796** `1m` rows (full `1m`: 5,815,518), **11 timeframes**, `2009-01-02` -> `2026-09-02`.
+> **Sample on GitHub** · `SPX500_1m.csv` (55,440 rows, `2026-07-10` -> `2026-09-04`, 3.61 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/spx500)** — **5,841,678** `1m` rows (full `1m`: 5,815,518), **11 timeframes**, `2009-01-02` -> `2026-09-04`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | S&P 500 · Index | S&P 500 · Index |
 | Timeframes | `1m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 55,440 | **5,837,796** |
-| Size | 3.71 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/spx500) |
-| Period | `2026-07-07` -> `2026-09-02` | `2009-01-02` -> `2026-09-02` |
+| 1m rows | 55,440 | **5,841,678** |
+| Size | 3.61 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/spx500) |
+| Period | `2026-07-10` -> `2026-09-04` | `2009-01-02` -> `2026-09-04` |
 | File | `SPX500_1m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/spx500) |
 | Coverage report | — | [SPX500 coverage](https://getdata.finance/coverage/spx500) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`SPX500_1m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-07T18:59:00+00:00 | 7499.05 | 7499.32 | 7497.55 | 7498.3 | 601 |
-| 2026-07-07T19:00:00+00:00 | 7498.3 | 7500.32 | 7494.3 | 7495.05 | 989 |
-| 2026-07-07T19:01:00+00:00 | 7495.05 | 7495.32 | 7491.55 | 7493.8 | 1102 |
-| 2026-07-07T19:02:00+00:00 | 7493.8 | 7496.56 | 7493.8 | 7495.32 | 1047 |
-| 2026-07-07T19:03:00+00:00 | 7495.32 | 7496.8 | 7494.56 | 7494.56 | 698 |
+| 2026-07-10T14:41:00+00:00 | 7536.83 | 7536.97 | 7532.95 | 7533.71 | 1401 |
+| 2026-07-10T14:42:00+00:00 | 7533.71 | 7538.97 | 7533.7 | 7535.33 | 1224 |
+| 2026-07-10T14:43:00+00:00 | 7535.33 | 7537.97 | 7534.97 | 7536.22 | 1093 |
+| 2026-07-10T14:44:00+00:00 | 7536.22 | 7542.71 | 7534.21 | 7541.22 | 1135 |
+| 2026-07-10T14:45:00+00:00 | 7541.22 | 7542.97 | 7537.95 | 7541.2 | 1145 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-02T01:56:00+00:00 | 7628.83 | 7629.08 | 7627.83 | 7627.83 | 126 |
-| 2026-09-02T01:57:00+00:00 | 7627.83 | 7628.47 | 7627.34 | 7627.58 | 100 |
-| 2026-09-02T01:58:00+00:00 | 7627.58 | 7629.6 | 7627.58 | 7629.6 | 117 |
-| 2026-09-02T01:59:00+00:00 | 7629.6 | 7629.85 | 7628.6 | 7629.58 | 82 |
-| 2026-09-02T02:00:00+00:00 | 7629.58 | 7629.85 | 7629.58 | 7629.85 | 29 |
+| 2026-09-04T20:40:00+00:00 | 7706.95 | 7707.21 | 7706.69 | 7706.71 | 35 |
+| 2026-09-04T20:41:00+00:00 | 7706.71 | 7707.2 | 7706.71 | 7706.96 | 34 |
+| 2026-09-04T20:42:00+00:00 | 7706.96 | 7707.96 | 7706.96 | 7707.69 | 22 |
+| 2026-09-04T20:43:00+00:00 | 7707.69 | 7707.95 | 7707.69 | 7707.7 | 9 |
+| 2026-09-04T20:44:00+00:00 | 7707.7 | 7708.3 | 7707.45 | 7708.29 | 17 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **SPX500** archive on **[getdata.finance](https://getdata.finance/datasets/spx500)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **5,837,796** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **SPX500** archive on **[getdata.finance](https://getdata.finance/datasets/spx500)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **5,841,678** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full SPX500 dataset on getdata.finance](https://getdata.finance/datasets/spx500)**
 
